@@ -1,7 +1,7 @@
 
 $.material.init();
 
-Survey.defaultBootstrapMaterialCss.navigationButton = "btn btn-blue";
+Survey.defaultBootstrapMaterialCss.navigationButton = "btn btn-primary";
 Survey.defaultBootstrapMaterialCss.rating.item = "btn btn-default my-rating";
 Survey.StylesManager.applyTheme("bootstrapmaterial");
 
@@ -80,12 +80,14 @@ window.survey = new Survey.Model(json);
             console.log(differenceArray)
             console.log(lowest)
             console.log(closestFriend)
+            document.querySelector('#surveyResult').textContent = "The person with the interests closest to your own in our database is: (" + closestFriend + ")"
+            document.getElementById('exitButton').style.visibility = "visible"
         }
         )
 
     });
 
 
-$("#surveyElement").Survey({ 
-    model: survey 
-});
+    $("#surveyElement").Survey({ 
+        model: survey 
+    });

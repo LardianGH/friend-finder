@@ -1,0 +1,32 @@
+#homeBody {
+    background-color: rgb(143, 20, 20);
+}
+
+#surveyBody {
+    background-color: #fff;
+}
+
+.btn {
+color: blue;
+}
+
+#exitButton {
+    visibility: hidden;
+    width: 800px;
+    height: 50px;
+}
+
+#menuText {
+    margin-left: 645px;
+    font-size: 35px;
+}
+
+#startButton {
+    margin-left: 295px;
+    width: 800px;
+    height: 50px;
+}
+
+.my-rating {
+    font-size: 12px;
+}
