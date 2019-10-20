@@ -12,19 +12,25 @@ color: blue;
 
 #exitButton {
     visibility: hidden;
-    width: 800px;
-    height: 50px;
+    background-color: gray;
+    color: black;
+    margin-top: 20px;
+    width: 850px;
+    margin-left: 265px;
+    height: 90px;
 }
 
 #menuText {
-    margin-left: 645px;
-    font-size: 35px;
+    margin-left: 595px;
+    font-size: 65px;
 }
 
 #startButton {
-    margin-left: 295px;
-    width: 800px;
-    height: 50px;
+    background-color: gray;
+    margin-top: 20px;
+    margin-left: 265px;
+    width: 850px;
+    height: 90px;
 }
 
 .my-rating {
